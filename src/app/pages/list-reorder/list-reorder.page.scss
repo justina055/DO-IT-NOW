@@ -1,0 +1,20 @@
+ion-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+ion-item {
+  .custom-label {
+    font-size: 1.5em; // Tamaño de fuente para el label, ajusta según sea necesario
+    font-weight: bold; // Otras propiedades de estilo según tus preferencias
+  }
+}
+
+.add-icon {
+  font-size: 2em;
+  margin-left: auto; // Tamaño de fuente para el icono, ajusta según sea necesario
+}
+
+
