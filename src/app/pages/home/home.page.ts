@@ -14,6 +14,7 @@ export class HomePage {
   openAlert: Boolean = false;
 
   startClicked() {
+    // ehdwehdhwe
     // Puedes agregar la lógica que desees al hacer clic en el botón
     // Por ejemplo, redireccionar a otra página
     this.router.navigate(['/list-reorder']);
