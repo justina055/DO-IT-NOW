@@ -23,7 +23,7 @@ export class HomePage {
   compartirEnWhatsApp() {
     // Lógica para compartir en WhatsApp
     const whatsappLink =
-      'https://api.whatsapp.com/send?text=Descargate la app Do it now! es super útil';
+      'https://api.whatsapp.com/send?text=https://do-itnow.netlify.app/home';
     window.open(whatsappLink, '_blank');
     this.openAlert = true
     this.dialog.nativeElement.showModal()
