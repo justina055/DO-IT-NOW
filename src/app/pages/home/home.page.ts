@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild, booleanAttribute } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,6 +9,10 @@ import { Router } from '@angular/router';
 export class HomePage {
   constructor(private router: Router) {}
 
+  @ViewChild("dialog") dialog!: ElementRef<HTMLDialogElement>;
+
+  openAlert: Boolean = false;
+
   startClicked() {
     // Puedes agregar la lógica que desees al hacer clic en el botón
     // Por ejemplo, redireccionar a otra página
@@ -18,7 +22,18 @@ export class HomePage {
   compartirEnWhatsApp() {
     // Lógica para compartir en WhatsApp
     const whatsappLink =
-      'https://api.whatsapp.com/send?text=https://www.instagram.com/justinaeyras_/';
+      'https://api.whatsapp.com/send?text=Descargate la app Do it now! es super útil';
     window.open(whatsappLink, '_blank');
+    this.openAlert = true
+    this.dialog.nativeElement.showModal()
   }
+
+  si(){
+    this.dialog.nativeElement.close();
+  }
+
+   no(){
+    this.dialog.nativeElement.close();
+   }
+
 }

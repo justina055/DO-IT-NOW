@@ -1,0 +1,99 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  h1{
+    font-weight: bold;
+    color:rgb(34, 96, 116)
+  }
+
+  h2{
+    color:rgb(34, 96, 116)
+  }
+
+  p{
+    color:rgb(34, 96, 116)
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .background {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .content-container {
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 32px;
+    color: #007bff; 
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    margin-bottom: 10px;
+  }
+  
+  .alert {
+    background-color: #3dc2ff; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  dialog{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: unset;
+    box-shadow: 0 0 5px 5px black;
+    div{
+      margin-top: 50px;
+      display: flex;
+    }
+    button{
+      display: inline-flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      width: 140px;
+      &:first-of-type{
+        background-color: lightblue;
+        margin-right: 10px;
+      }
+      &:last-of-type{
+        background-color: lightblue;
+      }
+      span:first-child{
+        font-size: x-large;
+      }
+    }
+    p{
+      font-size: x-large;
+      text-align: center;
+    }
+  }
+
+  /* Para un color sólido */
+.background {
+  background-color: rgb(162, 212, 228); /* Cambia #f0f0f0 por el color que desees */
+  height: 100vh;
+}
+
+/* Para un gradiente lineal */
+.background {
+  background: linear-gradient(to bottom, rgb(201, 225, 233), #ffffff); /* Cambia los colores según tu preferencia */ }

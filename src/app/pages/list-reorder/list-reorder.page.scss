@@ -1,5 +1,5 @@
 ion-title {
-  font-size: 2em;
+  font-size:x-large;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
@@ -15,6 +15,26 @@ ion-item {
 .add-icon {
   font-size: 2em;
   margin-left: auto; // Tamaño de fuente para el icono, ajusta según sea necesario
+}
+.content {
+  --ion-safe-area-top: 0;
+}
+
+.task-list {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-header {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ion-item-options ion-icon {
+  font-size: 24px;
 }
 
 
